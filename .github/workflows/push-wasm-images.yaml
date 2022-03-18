@@ -9,7 +9,7 @@ jobs:
     name: Build and push Wasm images
     runs-on: ubuntu-latest
     steps:
-      - name: install Go
+      - name: install Go.
         uses: actions/setup-go@v2
         with:
           go-version: '1.17.1'
